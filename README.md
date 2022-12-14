@@ -109,7 +109,7 @@ python experiments/train_eval_flap.py
 --arg_binding finetune_with_obs_encoder=True
 --arg_binding eval_seeds=0
 ```
-For our target tasks A, B, and C that we showed in the paper, the corresponding `eval_seeds` are 0, 1, and 2 respectively.
+For our target tasks A and B that we showed in the paper, the corresponding `eval_seeds` are 0 and 1 respectively.
 
 ### Visualizing FLAP
 During training, the results will be saved to a file called under
